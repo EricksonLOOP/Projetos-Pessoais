@@ -1,0 +1,119 @@
+*{
+	
+	margin: 0px;
+	font-family: 'League Spartan', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+
+body{
+	background: url(images/bg-pattern-top-mobile.svg);
+	background-attachment: fixed;
+	background-position: top;
+    background-size: cover;
+	background-repeat: no-repeat;
+	padding: 45px;
+}
+
+.all{
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.text-main{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	
+}
+.title{
+	
+	font-size: 3rem;
+	color: hsl(300, 43%, 22%);
+	font-weight: 700;
+	padding: 15px;
+}
+.description{
+	opacity: 0.5;
+	
+	color: hsl(300, 43%, 22%);
+	padding: 10px;
+	width: 70%;
+}
+
+.five-stars-div{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	width: 45%;
+}
+.five-stars-div br{
+	display: none;
+}
+.right{
+	transform: translateX(-60px);
+}
+.right2{
+	transform: translateX(-30px);
+
+}
+.rigth3{
+
+}
+.five-stars{
+
+	color: hsl(300, 43%, 22%);
+	background: hsl(300, 24%, 96%);
+	margin: 5px;
+	font-weight: 700;
+	border-radius: 10px;
+	margin-bottom: 3px;
+	padding: 20px;
+	width: 100%;
+}
+.five-stars2{
+	margin-right: 10px;
+}
+.stars{
+	padding: 0px;
+}
+
+.comments{
+	display: flex;
+}
+
+.peoples{
+	background: hsl(300, 43%, 22%);
+	padding: 20px;
+	margin: 5px;
+	border-radius: 10px;
+	color: whitesmoke;
+	font-size: 15px;
+}
+.profile-photo{
+	border-radius: 100px;
+}
+.names{
+	transform: translateX(55px) translateY(-42px);
+}
+
+.verified{
+	color: hsl(333, 80%, 67%);
+	font-size: 15px;
+	font-weight: 400;
+
+}
+
+.peoples-comments{
+	transform: translateY(-20px);
+	font-weight: 500;
+}
+
+.y2{
+	transform: translateY(20px);
+}
+.y3{
+	transform: translateY(40px);
+}
+
+
